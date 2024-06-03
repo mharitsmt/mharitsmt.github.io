@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box
+}
+
+.hero {
+    position: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 19px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: orange ;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.detel {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.detel p{
+    color: gray;
+    line-height: 22px;
+}
+
+.detel a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .me {
+    left: 45%;
+}
+
+.sosmed {
+    padding-top: 40px;
+    background-color: beige;
+}
+
+.sosmed a {
+    display:  inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border: orange;
+    border-radius: 100%;
+    font-size: 60px;
+    color: orange;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 10px; 
+}
+
+.sosmed a:hover {
+    color: black;
+    background-color: orange;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    background-color: beige;
+}

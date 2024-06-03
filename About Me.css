@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.hero {
+    position: cover;
+    width: 100%;
+    height: 30vh;
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 19px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: orange ;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 100px;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    margin-top: -250px;
+}
+
+p {
+    color: black;
+    line-height: 2;
+}
+
+strong {
+    color: orange;
+}
+
+section {
+    margin-bottom: none;
+}
+
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .me {
+    left: 45%;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    background-color: beige;
+    margin-top: -100px;
+}
+
+.personal-info {
+    margin-top: 70px;
+}
